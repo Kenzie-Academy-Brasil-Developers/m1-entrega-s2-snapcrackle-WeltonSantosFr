@@ -10,7 +10,7 @@ function snapCrackle(maxValue) {
             resultStr = resultStr.concat(" Crackle,")
         }
         else if(i % 2 !== 0) {
-            resultStr = resultStr.concat( " Snap,")
+            resultStr = resultStr.concat(" Snap,")
         }
         else {
             resultStr = resultStr.concat( ` ${i},`)
@@ -18,5 +18,3 @@ function snapCrackle(maxValue) {
     }
     return resultStr
 }
-
-console.log(snapCrackle(20))
